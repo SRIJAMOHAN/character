@@ -1,11 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int num,i,sum=0;
+int num,sum;
 printf("Enter a positive integer %d",num);
-for(i=1;i<=num;++i)
-{
-sum+=i;
-}
-printf("SUM is %d",sum);
+scanf("%d",&num);
+sum=num*(num+1)/2;
+printf("The sum of natural numbers is %d",sum);
 }
