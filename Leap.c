@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int year;
 scanf("%d",&year)
